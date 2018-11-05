@@ -1,1 +1,5 @@
-# predictearthquake
+# Predict How Likely You Will Feel an Earthquake at Your Location:
+
+ In our ML project, we will propose to create a solution to discover how strongly you will feel (magnitude) an earthquake based on where you live. Our program helps determine the measure of risk for encountering an earthquake, based on the distance from the epicenter and the magnitude of the quake. We plan to have a supervised learning model using the K-Nearest Neighbor (KNN) algorithm and a Support Vector Machine (SVM) to be able to calculate where and how strong the impact of an earthquake will be based on the magnitude and the latitude and longitude of where it hit. 
+
+ The data we will use was retrieved from earthquake.usgs.gov. We have 2 different data sets - one data set containing information on earthquakes in East Asia (training data, contains ~3.5k data points) and another set containing information on earthquakes in the US (testing data, contains ~800 data points). These datasets include relevant information like latitude, longitude, magnitude, and depth. 
